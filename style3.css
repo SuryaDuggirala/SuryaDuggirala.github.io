@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+
+html {
+    background: url(background3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 90%;
+}
+
+.head {
+    font-family: 'Playfair Display SC', serif;
+    size: cover;
+    text-align: center;
+}
+
+nav {
+    margin: 5%;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid #333;
+    padding: 0 20px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    text-decoration: none;
+    color: floralwhite;
+    font: 25px/1 'Playfair Display SC', serif;
+    text-transform: uppercase;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: gray;
+}
+
+li.active a {
+    font-weight: bold;
+    color: gray;
+}
+#proj {
+    margin-left: 5%;
+}
+body {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    color: floralwhite;
+}
+h1 {
+    font-weight: bold;
+}
+a {
+    color: floralwhite;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+}
+
