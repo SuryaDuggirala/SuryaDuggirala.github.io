@@ -53,20 +53,40 @@ li a:hover {
     color: #666;
 }
 
-li.active a {
-    font-weight: bold;
-    color: #333;
-}
 body {
-    font-family: 'Playfair Display SC', serif;
     color: floralwhite;
+    text-transform: uppercase;
 }
+
 h2 {
-    font-weight: bold;
+    font-family: 'Playfair Display SC', serif;
     text-align: left;
     padding: 0 20px;
-    margin: 5%;
+    margin: 8%;
 }
+
+a{
+    color: floralwhite;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+a:hover {
+    color: #666;
+}
+
 #comments {
     margin: 5%;
+}
+
+.Note {
+    margin-left: 10%;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 120%;
+    color: floralwhite;
 }

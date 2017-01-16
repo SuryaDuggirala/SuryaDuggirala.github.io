@@ -15,7 +15,6 @@ html {
 }
 body {
     text-align: center;
-    padding-top: 15%;
     font-family: 'Playfair Display SC', serif;
 }
 a {
@@ -25,7 +24,54 @@ a {
 a:hover {
     color: dimgray;
 }
+nav {
+    margin: 5%;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    border-right: 1px solid floralwhite;
+    padding: 0 20px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    text-decoration: none;
+    color: floralwhite;
+    font: 25px/1 'Playfair Display SC', serif;
+    text-transform: uppercase;
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: #666;
+}
 </style>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 <body>
 Email: suryad96@berkeley.edu<br>
 <a href="https://www.linkedin.com/in/surya-duggirala-722243121" target="blank">LinkedIn</a><br>
