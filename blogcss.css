@@ -77,11 +77,7 @@ p {
     font-family: 'Raleway', sans-serif;
     text-align: left;
     line-height: 20px;
-    border: 3px solid #888;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    background: #fffff0;
-    padding: 20px 25px;
+    
 }
 
 .test {
