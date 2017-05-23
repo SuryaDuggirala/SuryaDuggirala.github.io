@@ -76,6 +76,8 @@ p {
     font-family: 'Raleway', sans-serif;
     text-align: left;
     line-height: 20px;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .test {
